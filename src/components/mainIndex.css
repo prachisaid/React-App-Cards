@@ -1,0 +1,54 @@
+.navbar-header {
+    background-color: rgb(36, 36, 46);
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn-parent {
+    /* border: 2px solid red; */
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.filter-btn {
+    padding: 13px 25px;
+    font-size: 16px;
+    background-color: rgba(49, 49, 51, 0.713);
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.cards {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    object-fit: 1/2;
+}
+
+.card-main {
+    box-shadow: 0px 1px 5px rgba(61, 60, 60, 0.743);
+    margin:20px;
+    width: 300px;
+    height: 400px;
+    padding: 12px;
+}
+
+.card-main img {
+    width: 300px;
+    object-fit: 1/1;
+    position: relative;
+}
+
+.heart {
+    background-color: white;
+    border: none;
+}
